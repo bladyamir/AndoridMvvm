@@ -2,7 +2,7 @@ package com.example.amir.mvvmtest.data
 
 class FakeDataBase private constructor(){
     var quoteDao=FakeQuoteDao()
-    private set;
+    private set
 
     companion object {
        @Volatile private var instance:FakeDataBase?=null;
